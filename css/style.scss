@@ -1,0 +1,139 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container-fluid{
+    --bs-gutter-x: 0;
+}
+
+.navbar{
+    position:sticky;
+    top:0px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.header{
+    margin-bottom: 40px;
+    &__title{
+        color: hsl(233, 26%, 24%);
+        font-size: 30px;
+    }
+
+    &__text{
+        font-size: 14px;
+        color:hsl(233, 8%, 62%)
+    }
+
+}
+
+.header-mobile{
+    position:relative;
+    height: 370px;
+    --bs-gutter-x: 0;
+    overflow: hidden;
+
+    &__img{
+        position: absolute;
+        
+        &--mobile{
+            z-index: -2;
+            
+        }
+
+        &--mockups{
+            height:470px;
+            left:0;
+            transform: translateX(-8%) translateY(-107px);
+            z-index: -1;
+        }
+    }
+}
+
+.btn{
+    color:white;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    height: 45px;
+    width: 180px;
+}
+
+.easybank{
+    background-color:hsl(0, 0%, 98%);
+
+    &__header{
+        color:hsl(233, 26%, 24%);
+    }
+
+    &__text{
+        color:hsl(233, 8%, 62%);
+        font-size: 12px;
+    }
+
+    &__img{
+        height:65px;
+    }
+
+    &__hdcard{
+        font-size: 16px;
+        font-weight: 500;
+        color:hsl(233, 26%, 24%);
+    }
+}
+
+.latest-articles{
+    background-color: #FAFAFA;
+}
+
+.latest-article{
+
+    &__card{
+        border: none;
+        margin-right: 13px;
+    }
+
+    &__title{
+        margin-top: 70px;
+    }
+
+    &__card-bottom{
+        padding: 0 22px 0 26px;
+        background-color: white;
+    }
+
+    &__author{
+        font-size: 9px;
+        color:hsl(233, 8%, 62%);
+    }
+
+    &__header{
+        font-size: 14px;
+    }
+
+    &__text{
+        font-size: 11px;
+        color:hsl(233, 8%, 62%);
+    }
+}
+
+.card-img-top{
+    height:160px;
+    object-fit: cover;
+    // overflow: hidden;
+}
+
+.footer{
+    background-color: hsl(233, 26%, 24%);
+
+    &__list{
+        list-style: none;
+        color: white;
+        text-decoration: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    // &__logo{
+        
+    // }
+}

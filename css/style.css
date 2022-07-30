@@ -1,0 +1,118 @@
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+.header__title {
+  color: hsl(233deg, 26%, 24%);
+  font-size: 30px;
+}
+.header__text {
+  font-size: 14px;
+  color: hsl(233deg, 8%, 62%);
+}
+
+.header-mobile {
+  position: relative;
+  height: 370px;
+  --bs-gutter-x: 0;
+  overflow: hidden;
+}
+.header-mobile__img {
+  position: absolute;
+}
+.header-mobile__img--mobile {
+  z-index: -2;
+}
+.header-mobile__img--mockups {
+  height: 470px;
+  left: 0;
+  transform: translateX(-8%) translateY(-107px);
+  z-index: -1;
+}
+
+.btn {
+  color: white;
+  background-image: linear-gradient(to right, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
+  height: 45px;
+  width: 180px;
+}
+
+.easybank {
+  background-color: hsl(0deg, 0%, 98%);
+}
+.easybank__header {
+  color: hsl(233deg, 26%, 24%);
+}
+.easybank__text {
+  color: hsl(233deg, 8%, 62%);
+  font-size: 12px;
+}
+.easybank__img {
+  height: 65px;
+}
+.easybank__hdcard {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(233deg, 26%, 24%);
+}
+
+.latest-articles {
+  background-color: #FAFAFA;
+}
+
+.latest-article__card {
+  border: none;
+  margin-right: 13px;
+}
+.latest-article__title {
+  margin-top: 70px;
+}
+.latest-article__card-bottom {
+  padding: 0 22px 0 26px;
+  background-color: white;
+}
+.latest-article__author {
+  font-size: 9px;
+  color: hsl(233deg, 8%, 62%);
+}
+.latest-article__header {
+  font-size: 14px;
+}
+.latest-article__text {
+  font-size: 11px;
+  color: hsl(233deg, 8%, 62%);
+}
+
+.card-img-top {
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  background-color: hsl(233deg, 26%, 24%);
+}
+.footer__list {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}/*# sourceMappingURL=style.css.map */
